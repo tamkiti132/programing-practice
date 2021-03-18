@@ -1,0 +1,60 @@
+.example{
+    background-color: cadetblue;
+    padding: 20px; 
+}
+/*.example span {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: cornsilk;
+}*/
+.example div{
+    display: inline-block;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: cornsilk;
+}
+hr {
+    margin: 30px;
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 5px;
+    position: relative;
+    top: -13px;
+}
+
+
+.container{
+    width: 500px;
+    background-color:coral;
+    display: flex;
+}
+.item{
+    height: 200px;
+}
+
+
+
+.item1{
+    background-color: pink;
+    flex: 1;
+}
+.item2{
+    background-color: skyblue;
+    flex: 1;
+}
+
+
+.measure div{
+    display: inline-block;
+}
